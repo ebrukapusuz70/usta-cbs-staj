@@ -1,0 +1,22 @@
+{
+  "name": "usta-cbs-gas-frontend",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host localhost --port 5173",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "vite": "^7.3.0",
+    "typescript": "^5.9.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "ol": "^10.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0"
+  }
+}

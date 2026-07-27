@@ -103,4 +103,66 @@ Database dogrulama sorgulari `scripts/phase2_db_validation.sql` dosyasindadir. K
 
 Swagger ve database dogrulamalari basariyla tamamlandiginda 2. asama kilitlenebilir. Bu proje 3. asama, frontend veya harita entegrasyonu icermez.
 
+## 8. 4. Aşama Gas Düzenleme API'si
+
+Mevcut 2. aşama endpointleri korunarak aşağıdaki eklemeli yollar sağlanır:
+
+- `POST /api/gas-pipes`, `GET/PATCH/DELETE /api/gas-pipes/{id}`
+- `GET /api/gas-pipes/suggest-code`
+- `POST /api/gas-valves`, `GET/PATCH/DELETE /api/gas-valves/{id}`
+- `GET /api/gas-valves/suggest-code?related_pipe_id={id}`
+
+İstek geometrileri SRID öneki içermeyen EPSG:3857 WKT'dir. Vana `POINT`, boru
+`LINESTRING` kabul eder; LineString, mevcut tablo tipi
+nedeniyle backend içinde MultiLineString'e dönüştürülür. Yeni kullanıcı kayıtları
+`source=user_created_stage4`, kontrollü test kayıtları `user_created_stage4_e2e`
+ile ayrılır. PATCH ve DELETE yalnız bu iki source değerine izin verir; sentetik
+demo kayıtları backend tarafından `403 FEATURE_READ_ONLY` ile korunur. Bağlı
+vanası bulunan boru cascade silinmez ve bağlı vana sayısıyla birlikte
+`409 PIPE_HAS_CONNECTED_VALVES` döner.
+
+Yeni Stage 4 boru ve vana isteklerinde `operator_name` zorunludur. Değerin dış
+boşlukları temizlenir ve 2–100 karakter aralığı doğrulanır. Eski kayıtlarda bu
+alan `null` olabilir. Boru kodu yalnız harf, rakam ve bölümler arasında kısa
+çizgi içerebilir; otomatik öneri bağlantı borusunun bölgesel kodunu, uygun
+bağlantı kodu yoksa ağdaki baskın biçimi kullanır. Kullanıcı öneriyi değiştirebilir
+ve backend tüm kodları transaction içinde benzersizlik kontrolünden geçirir.
+Vana kodu önerisi de bağlı borunun gerçek bölgesel prefix'ini, aynı bölgedeki
+mevcut vana kodları bu biçimi doğruladığında kullanır. Otomatik öneri değiştirilebilir;
+POST ve PATCH sırasında vana kodu advisory lock altında yeniden doğrulanır.
+
+E2E kaynağı normal frontend tarafından seçilemez. Yalnız backend ortamında
+`STAGE4_E2E_TOKEN` tanımlandığında ve test istemcisi aynı değeri
+`X-Stage4-E2E-Token` başlığında gönderdiğinde etkinleşir. Gerçek token kaynak
+kodda, frontend ortamında veya bu belgede tutulmaz.
+
+Frontend:
+
+```powershell
+cd frontend
+pnpm run dev
+pnpm run typecheck
+pnpm run build
+```
+
+Haritada **Vana Ekle** veya **Boru Çiz** seçilir, geometri tamamlanır ve açılan
+form kaydedilir. İptal veya Escape taslağı siler. Bilgi panelindeki **Düzenle** ve
+**Sil** düğmeleri yalnız değiştirilebilir Stage 4 kayıtlarında görünür; silme açık
+onay gerektirir. Boru güzergâhı düzenleme mevcut yol/topoloji akışını, vana konumu
+düzenleme mevcut snapping ve 10 m aralık akışını yeniden kullanır. Backend ve mevcut
+GeoServer `usta_cbs` WMS/WFS servisleri çalışır durumda olmalıdır. Şifre veya
+GeoServer kimlik bilgisi frontend'e verilmez.
+
+Backend testleri:
+
+```powershell
+cd outputs\backend_phase2
+.\.venv\Scripts\python -m unittest discover -s tests -v
+```
+
+Vana konumu backend tarafından en yakın boruya taşınır; `related_pipe_id` ve çap
+bu borudan türetilir. Boru başlangıcı yalnız bağlı vana, boru ucu veya gerçek
+kavşak olabilir. Bağlı vana için `related_pipe_id` mevcut olmalı ve vana
+geometrisi bağlı boruya 0,10 m tolerans içinde temas etmelidir.
+
 

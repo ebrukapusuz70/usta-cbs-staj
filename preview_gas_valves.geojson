@@ -1,0 +1,775 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 1,
+        "valve_code": "GV-OSM-YHM-001",
+        "valve_type": "isolation",
+        "diameter_mm": 250,
+        "material": "ductile_iron",
+        "status": "kapalı",
+        "install_year": 2018,
+        "related_pipe_id": 2,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "maintenance_boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7855525,
+          39.9667324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 2,
+        "valve_code": "GV-OSM-YHM-002",
+        "valve_type": "isolation",
+        "diameter_mm": 250,
+        "material": "brass",
+        "status": "kapalı",
+        "install_year": 2019,
+        "related_pipe_id": 2,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "maintenance_boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7857563,
+          39.9672948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 3,
+        "valve_code": "GV-OSM-YHM-003",
+        "valve_type": "isolation",
+        "diameter_mm": 200,
+        "material": "steel",
+        "status": "kapalı",
+        "install_year": 2015,
+        "related_pipe_id": 4,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "maintenance_boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7859447,
+          39.9678557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 4,
+        "valve_code": "GV-OSM-YHM-004",
+        "valve_type": "isolation",
+        "diameter_mm": 160,
+        "material": "ductile_iron",
+        "status": "kapalı",
+        "install_year": 2019,
+        "related_pipe_id": 7,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "maintenance_boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7838302,
+          39.9673106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 5,
+        "valve_code": "GV-OSM-YHM-005",
+        "valve_type": "isolation",
+        "diameter_mm": 200,
+        "material": "brass",
+        "status": "kapalı",
+        "install_year": 2014,
+        "related_pipe_id": 13,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "maintenance_boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.784104,
+          39.9678967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 6,
+        "valve_code": "GV-OSM-YHM-006",
+        "valve_type": "isolation",
+        "diameter_mm": 125,
+        "material": "steel",
+        "status": "bakımda",
+        "install_year": 2016,
+        "related_pipe_id": 6,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7846238,
+          39.9670487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 7,
+        "valve_code": "GV-OSM-YHM-007",
+        "valve_type": "control",
+        "diameter_mm": 160,
+        "material": "ductile_iron",
+        "status": "açık",
+        "install_year": 2025,
+        "related_pipe_id": 11,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7843604,
+          39.9683856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 8,
+        "valve_code": "GV-OSM-YHM-008",
+        "valve_type": "pressure_reducing",
+        "diameter_mm": 125,
+        "material": "brass",
+        "status": "açık",
+        "install_year": 2022,
+        "related_pipe_id": 14,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7867626,
+          39.9680557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 9,
+        "valve_code": "GV-OSM-YHM-009",
+        "valve_type": "isolation",
+        "diameter_mm": 160,
+        "material": "steel",
+        "status": "açık",
+        "install_year": 2014,
+        "related_pipe_id": 15,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7864435,
+          39.9670823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 10,
+        "valve_code": "GV-OSM-YHM-010",
+        "valve_type": "control",
+        "diameter_mm": 125,
+        "material": "ductile_iron",
+        "status": "açık",
+        "install_year": 2023,
+        "related_pipe_id": 18,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7842087,
+          39.9658244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 11,
+        "valve_code": "GV-OSM-YHM-011",
+        "valve_type": "pressure_reducing",
+        "diameter_mm": 200,
+        "material": "brass",
+        "status": "açık",
+        "install_year": 2018,
+        "related_pipe_id": 19,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7851452,
+          39.9656087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 12,
+        "valve_code": "GV-OSM-YHM-012",
+        "valve_type": "isolation",
+        "diameter_mm": 160,
+        "material": "steel",
+        "status": "açık",
+        "install_year": 2025,
+        "related_pipe_id": 24,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7870819,
+          39.9668509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 13,
+        "valve_code": "GV-OSM-YHM-013",
+        "valve_type": "control",
+        "diameter_mm": 160,
+        "material": "ductile_iron",
+        "status": "açık",
+        "install_year": 2021,
+        "related_pipe_id": 27,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7874375,
+          39.9678243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 14,
+        "valve_code": "GV-OSM-YHM-014",
+        "valve_type": "pressure_reducing",
+        "diameter_mm": 160,
+        "material": "brass",
+        "status": "açık",
+        "install_year": 2022,
+        "related_pipe_id": 27,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7881286,
+          39.9676016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 15,
+        "valve_code": "GV-OSM-YHM-015",
+        "valve_type": "isolation",
+        "diameter_mm": 110,
+        "material": "steel",
+        "status": "açık",
+        "install_year": 2021,
+        "related_pipe_id": 29,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7832855,
+          39.9691269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 16,
+        "valve_code": "GV-OSM-YHM-016",
+        "valve_type": "control",
+        "diameter_mm": 250,
+        "material": "ductile_iron",
+        "status": "açık",
+        "install_year": 2025,
+        "related_pipe_id": 35,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7860766,
+          39.9682847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 17,
+        "valve_code": "GV-OSM-YHM-017",
+        "valve_type": "pressure_reducing",
+        "diameter_mm": 250,
+        "material": "brass",
+        "status": "açık",
+        "install_year": 2025,
+        "related_pipe_id": 35,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7865549,
+          39.9696016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 18,
+        "valve_code": "GV-OSM-YHM-018",
+        "valve_type": "isolation",
+        "diameter_mm": 160,
+        "material": "steel",
+        "status": "açık",
+        "install_year": 2018,
+        "related_pipe_id": 36,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.787784,
+          39.9666123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 19,
+        "valve_code": "GV-OSM-YHM-019",
+        "valve_type": "control",
+        "diameter_mm": 160,
+        "material": "ductile_iron",
+        "status": "açık",
+        "install_year": 2018,
+        "related_pipe_id": 47,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7823733,
+          39.9677678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 20,
+        "valve_code": "GV-OSM-YHM-020",
+        "valve_type": "pressure_reducing",
+        "diameter_mm": 160,
+        "material": "brass",
+        "status": "açık",
+        "install_year": 2021,
+        "related_pipe_id": 51,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.786517,
+          39.9652467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 21,
+        "valve_code": "GV-OSM-YHM-021",
+        "valve_type": "isolation",
+        "diameter_mm": 160,
+        "material": "steel",
+        "status": "açık",
+        "install_year": 2021,
+        "related_pipe_id": 55,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7831086,
+          39.9688283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 22,
+        "valve_code": "GV-OSM-YHM-022",
+        "valve_type": "control",
+        "diameter_mm": 125,
+        "material": "ductile_iron",
+        "status": "açık",
+        "install_year": 2019,
+        "related_pipe_id": 62,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "junction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7864372,
+          39.9650105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 23,
+        "valve_code": "GV-OSM-YHM-023",
+        "valve_type": "pressure_reducing",
+        "diameter_mm": 200,
+        "material": "brass",
+        "status": "açık",
+        "install_year": 2018,
+        "related_pipe_id": 19,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "main_branch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7847907,
+          39.9646306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 24,
+        "valve_code": "GV-OSM-YHM-024",
+        "valve_type": "isolation",
+        "diameter_mm": 200,
+        "material": "steel",
+        "status": "açık",
+        "install_year": 2022,
+        "related_pipe_id": 31,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "main_branch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7828047,
+          39.9683457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 25,
+        "valve_code": "GV-OSM-YHM-025",
+        "valve_type": "isolation",
+        "diameter_mm": 40,
+        "material": "ductile_iron",
+        "status": "açık",
+        "install_year": 2009,
+        "related_pipe_id": 16,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "service_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7847315,
+          39.9687395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 26,
+        "valve_code": "GV-OSM-YHM-026",
+        "valve_type": "isolation",
+        "diameter_mm": 40,
+        "material": "brass",
+        "status": "açık",
+        "install_year": 2010,
+        "related_pipe_id": 40,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "service_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7832356,
+          39.9651483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 27,
+        "valve_code": "GV-OSM-YHM-027",
+        "valve_type": "isolation",
+        "diameter_mm": 63,
+        "material": "steel",
+        "status": "açık",
+        "install_year": 2011,
+        "related_pipe_id": 41,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "service_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7889337,
+          39.9673181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 28,
+        "valve_code": "GV-OSM-YHM-028",
+        "valve_type": "isolation",
+        "diameter_mm": 32,
+        "material": "ductile_iron",
+        "status": "açık",
+        "install_year": 2006,
+        "related_pipe_id": 42,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "service_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7826346,
+          39.9693569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 29,
+        "valve_code": "GV-OSM-YHM-029",
+        "valve_type": "isolation",
+        "diameter_mm": 63,
+        "material": "brass",
+        "status": "açık",
+        "install_year": 2013,
+        "related_pipe_id": 44,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "service_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7838042,
+          39.9641385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 30,
+        "valve_code": "GV-OSM-YHM-030",
+        "valve_type": "isolation",
+        "diameter_mm": 63,
+        "material": "steel",
+        "status": "açık",
+        "install_year": 2011,
+        "related_pipe_id": 50,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "service_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7827044,
+          39.9683805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 31,
+        "valve_code": "GV-OSM-YHM-031",
+        "valve_type": "isolation",
+        "diameter_mm": 63,
+        "material": "ductile_iron",
+        "status": "açık",
+        "install_year": 2012,
+        "related_pipe_id": 56,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "service_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7855921,
+          39.9700014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 32,
+        "valve_code": "GV-OSM-YHM-032",
+        "valve_type": "isolation",
+        "diameter_mm": 32,
+        "material": "brass",
+        "status": "açık",
+        "install_year": 2007,
+        "related_pipe_id": 57,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "service_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7817571,
+          39.9661398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 33,
+        "valve_code": "GV-OSM-YHM-033",
+        "valve_type": "isolation",
+        "diameter_mm": 32,
+        "material": "steel",
+        "status": "açık",
+        "install_year": 2005,
+        "related_pipe_id": 60,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "service_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.788522,
+          39.9687743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 34,
+        "valve_code": "GV-OSM-YHM-034",
+        "valve_type": "isolation",
+        "diameter_mm": 160,
+        "material": "ductile_iron",
+        "status": "açık",
+        "install_year": 2025,
+        "related_pipe_id": 9,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7831409,
+          39.9652697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "valve_id": 35,
+        "valve_code": "GV-OSM-YHM-035",
+        "valve_type": "isolation",
+        "diameter_mm": 125,
+        "material": "brass",
+        "status": "açık",
+        "install_year": 2020,
+        "related_pipe_id": 62,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "placement_reason": "terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7861538,
+          39.9641713
+        ]
+      }
+    }
+  ]
+}

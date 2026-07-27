@@ -1,0 +1,1989 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 1,
+        "pipe_code": "GP-OSM-YHM-001",
+        "pipe_type": "distribution",
+        "diameter_mm": 110,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2020,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "371. Sokak"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7855525,
+              39.9667324
+            ],
+            [
+              32.7846238,
+              39.9670487
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 2,
+        "pipe_code": "GP-OSM-YHM-002",
+        "pipe_type": "main_line",
+        "diameter_mm": 250,
+        "material": "çelik",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 4.0,
+        "status": "tamirde",
+        "install_year": 2017,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "tertiary",
+        "osm_name": "361. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7857563,
+              39.9672948
+            ],
+            [
+              32.7855525,
+              39.9667324
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 3,
+        "pipe_code": "GP-OSM-YHM-003",
+        "pipe_type": "main_line",
+        "diameter_mm": 160,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2021,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "tertiary",
+        "osm_name": "361. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7855525,
+              39.9667324
+            ],
+            [
+              32.7851452,
+              39.9656087
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 4,
+        "pipe_code": "GP-OSM-YHM-004",
+        "pipe_type": "main_line",
+        "diameter_mm": 200,
+        "material": "çelik",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 4.0,
+        "status": "tamirde",
+        "install_year": 2015,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "tertiary",
+        "osm_name": "361. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7859447,
+              39.9678557
+            ],
+            [
+              32.7857563,
+              39.9672948
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 5,
+        "pipe_code": "GP-OSM-YHM-005",
+        "pipe_type": "distribution",
+        "diameter_mm": 110,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2022,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "403. Sokak"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7846238,
+              39.9670487
+            ],
+            [
+              32.7842087,
+              39.9658244
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 6,
+        "pipe_code": "GP-OSM-YHM-006",
+        "pipe_type": "distribution",
+        "diameter_mm": 125,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2016,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "371. Sokak"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7846238,
+              39.9670487
+            ],
+            [
+              32.7838302,
+              39.9673106
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 7,
+        "pipe_code": "GP-OSM-YHM-007",
+        "pipe_type": "distribution",
+        "diameter_mm": 160,
+        "material": "polietilen",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "tamirde",
+        "install_year": 2018,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "357. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7838302,
+              39.9673106
+            ],
+            [
+              32.784104,
+              39.9678967
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 8,
+        "pipe_code": "GP-OSM-YHM-008",
+        "pipe_type": "distribution",
+        "diameter_mm": 90,
+        "material": "PE100",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2017,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "357. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.784104,
+              39.9678967
+            ],
+            [
+              32.7843604,
+              39.9683856
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 9,
+        "pipe_code": "GP-OSM-YHM-009",
+        "pipe_type": "main_line",
+        "diameter_mm": 160,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2024,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "357. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7831409,
+              39.9652697
+            ],
+            [
+              32.7838302,
+              39.9673106
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 10,
+        "pipe_code": "GP-OSM-YHM-010",
+        "pipe_type": "main_line",
+        "diameter_mm": 200,
+        "material": "çelik",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 4.0,
+        "status": "aktif",
+        "install_year": 2018,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "tertiary",
+        "osm_name": "361. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7860766,
+              39.9682847
+            ],
+            [
+              32.7859447,
+              39.9678557
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 11,
+        "pipe_code": "GP-OSM-YHM-011",
+        "pipe_type": "distribution",
+        "diameter_mm": 160,
+        "material": "polietilen",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2025,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "357. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7843604,
+              39.9683856
+            ],
+            [
+              32.7845196,
+              39.9686954
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 12,
+        "pipe_code": "GP-OSM-YHM-012",
+        "pipe_type": "distribution",
+        "diameter_mm": 90,
+        "material": "PE100",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2019,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "Vatan Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.785324,
+              39.9685382
+            ],
+            [
+              32.7860766,
+              39.9682847
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 13,
+        "pipe_code": "GP-OSM-YHM-013",
+        "pipe_type": "main_line",
+        "diameter_mm": 200,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 4.0,
+        "status": "tamirde",
+        "install_year": 2012,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "369. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7857563,
+              39.9672948
+            ],
+            [
+              32.784104,
+              39.9678967
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 14,
+        "pipe_code": "GP-OSM-YHM-014",
+        "pipe_type": "distribution",
+        "diameter_mm": 125,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2020,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "Vatan Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7860766,
+              39.9682847
+            ],
+            [
+              32.7867626,
+              39.9680557
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 15,
+        "pipe_code": "GP-OSM-YHM-015",
+        "pipe_type": "main_line",
+        "diameter_mm": 160,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2014,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "369. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7864435,
+              39.9670823
+            ],
+            [
+              32.7857563,
+              39.9672948
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 16,
+        "pipe_code": "GP-OSM-YHM-016",
+        "pipe_type": "service_line",
+        "diameter_mm": 40,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "pasif",
+        "install_year": 2008,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "Vatan Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7847315,
+              39.9687395
+            ],
+            [
+              32.785324,
+              39.9685382
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 17,
+        "pipe_code": "GP-OSM-YHM-017",
+        "pipe_type": "service_line",
+        "diameter_mm": 63,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2015,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "osm_way_226698815"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7845196,
+              39.9686954
+            ],
+            [
+              32.7842607,
+              39.9687859
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 18,
+        "pipe_code": "GP-OSM-YHM-018",
+        "pipe_type": "distribution",
+        "diameter_mm": 125,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2022,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "402. Sokak"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7842087,
+              39.9658244
+            ],
+            [
+              32.7851452,
+              39.9656087
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 19,
+        "pipe_code": "GP-OSM-YHM-019",
+        "pipe_type": "main_line",
+        "diameter_mm": 200,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 4.0,
+        "status": "aktif",
+        "install_year": 2016,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "tertiary",
+        "osm_name": "361. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7851452,
+              39.9656087
+            ],
+            [
+              32.7847907,
+              39.9646306
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 20,
+        "pipe_code": "GP-OSM-YHM-020",
+        "pipe_type": "distribution",
+        "diameter_mm": 90,
+        "material": "PE100",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2023,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "401. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7864435,
+              39.9670823
+            ],
+            [
+              32.7859743,
+              39.9658715
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 21,
+        "pipe_code": "GP-OSM-YHM-021",
+        "pipe_type": "distribution",
+        "diameter_mm": 110,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2017,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "Vatan Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7867626,
+              39.9680557
+            ],
+            [
+              32.7874375,
+              39.9678243
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 22,
+        "pipe_code": "GP-OSM-YHM-022",
+        "pipe_type": "distribution",
+        "diameter_mm": 125,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2024,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "371. Sokak"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7838302,
+              39.9673106
+            ],
+            [
+              32.7830908,
+              39.9675388
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 23,
+        "pipe_code": "GP-OSM-YHM-023",
+        "pipe_type": "distribution",
+        "diameter_mm": 160,
+        "material": "polietilen",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2018,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "osm_way_226698815"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7842607,
+              39.9687859
+            ],
+            [
+              32.7838685,
+              39.968923
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 24,
+        "pipe_code": "GP-OSM-YHM-024",
+        "pipe_type": "main_line",
+        "diameter_mm": 160,
+        "material": "çelik",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2025,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "369. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7870819,
+              39.9668509
+            ],
+            [
+              32.7864435,
+              39.9670823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 25,
+        "pipe_code": "GP-OSM-YHM-025",
+        "pipe_type": "distribution",
+        "diameter_mm": 110,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2019,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "Şehit Tugay Can Kızılırmak Sokağı"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7859447,
+              39.9678557
+            ],
+            [
+              32.7843604,
+              39.9683856
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 26,
+        "pipe_code": "GP-OSM-YHM-026",
+        "pipe_type": "distribution",
+        "diameter_mm": 125,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2013,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "401. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7859743,
+              39.9658715
+            ],
+            [
+              32.7857582,
+              39.9651365
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 27,
+        "pipe_code": "GP-OSM-YHM-027",
+        "pipe_type": "distribution",
+        "diameter_mm": 160,
+        "material": "polietilen",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2020,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "Vatan Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7874375,
+              39.9678243
+            ],
+            [
+              32.7881286,
+              39.9676016
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 28,
+        "pipe_code": "GP-OSM-YHM-028",
+        "pipe_type": "distribution",
+        "diameter_mm": 90,
+        "material": "PE100",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2014,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "401. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7864435,
+              39.9670823
+            ],
+            [
+              32.7867626,
+              39.9680557
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 29,
+        "pipe_code": "GP-OSM-YHM-029",
+        "pipe_type": "distribution",
+        "diameter_mm": 110,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2021,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "osm_way_226698815"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7838685,
+              39.968923
+            ],
+            [
+              32.7832855,
+              39.9691269
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 30,
+        "pipe_code": "GP-OSM-YHM-030",
+        "pipe_type": "distribution",
+        "diameter_mm": 125,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2015,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "403. Sokak"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7842087,
+              39.9658244
+            ],
+            [
+              32.7838939,
+              39.9649239
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 31,
+        "pipe_code": "GP-OSM-YHM-031",
+        "pipe_type": "main_line",
+        "diameter_mm": 200,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 4.0,
+        "status": "aktif",
+        "install_year": 2022,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "369. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.784104,
+              39.9678967
+            ],
+            [
+              32.7828047,
+              39.9683457
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 32,
+        "pipe_code": "GP-OSM-YHM-032",
+        "pipe_type": "distribution",
+        "diameter_mm": 90,
+        "material": "PE100",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2016,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "360. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7870819,
+              39.9668509
+            ],
+            [
+              32.786517,
+              39.9652467
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 33,
+        "pipe_code": "GP-OSM-YHM-033",
+        "pipe_type": "service_line",
+        "diameter_mm": 32,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2023,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "osm_way_226698815"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7832855,
+              39.9691269
+            ],
+            [
+              32.7830187,
+              39.9692212
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 34,
+        "pipe_code": "GP-OSM-YHM-034",
+        "pipe_type": "distribution",
+        "diameter_mm": 125,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2017,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "371. Sokak"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7830908,
+              39.9675388
+            ],
+            [
+              32.7823733,
+              39.9677678
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 35,
+        "pipe_code": "GP-OSM-YHM-035",
+        "pipe_type": "main_line",
+        "diameter_mm": 250,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 4.0,
+        "status": "aktif",
+        "install_year": 2024,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "tertiary",
+        "osm_name": "361. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7865549,
+              39.9696016
+            ],
+            [
+              32.7860766,
+              39.9682847
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 36,
+        "pipe_code": "GP-OSM-YHM-036",
+        "pipe_type": "main_line",
+        "diameter_mm": 160,
+        "material": "çelik",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2018,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "369. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.787784,
+              39.9666123
+            ],
+            [
+              32.7870819,
+              39.9668509
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 37,
+        "pipe_code": "GP-OSM-YHM-037",
+        "pipe_type": "distribution",
+        "diameter_mm": 110,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2025,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "400. Sokak"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7857582,
+              39.9651365
+            ],
+            [
+              32.7864372,
+              39.9650105
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 38,
+        "pipe_code": "GP-OSM-YHM-038",
+        "pipe_type": "distribution",
+        "diameter_mm": 125,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2019,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "360. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7874375,
+              39.9678243
+            ],
+            [
+              32.7870819,
+              39.9668509
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 39,
+        "pipe_code": "GP-OSM-YHM-039",
+        "pipe_type": "service_line",
+        "diameter_mm": 32,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2013,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "360. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.786517,
+              39.9652467
+            ],
+            [
+              32.7864372,
+              39.9650105
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 40,
+        "pipe_code": "GP-OSM-YHM-040",
+        "pipe_type": "service_line",
+        "diameter_mm": 40,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "pasif",
+        "install_year": 2008,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "Şehit Serkan Ciddioğlu Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7838939,
+              39.9649239
+            ],
+            [
+              32.7832356,
+              39.9651483
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 41,
+        "pipe_code": "GP-OSM-YHM-041",
+        "pipe_type": "service_line",
+        "diameter_mm": 63,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "pasif",
+        "install_year": 2011,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "Vatan Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7881286,
+              39.9676016
+            ],
+            [
+              32.7889337,
+              39.9673181
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 42,
+        "pipe_code": "GP-OSM-YHM-042",
+        "pipe_type": "service_line",
+        "diameter_mm": 32,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "pasif",
+        "install_year": 2005,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "osm_way_226698815"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7830187,
+              39.9692212
+            ],
+            [
+              32.7826346,
+              39.9693569
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 43,
+        "pipe_code": "GP-OSM-YHM-043",
+        "pipe_type": "distribution",
+        "diameter_mm": 160,
+        "material": "polietilen",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2015,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "Şehit Serkan Ciddioğlu Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7847907,
+              39.9646306
+            ],
+            [
+              32.7840209,
+              39.9648824
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 44,
+        "pipe_code": "GP-OSM-YHM-044",
+        "pipe_type": "service_line",
+        "diameter_mm": 63,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "pasif",
+        "install_year": 2011,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "tertiary",
+        "osm_name": "388. Sokak"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7840209,
+              39.9648824
+            ],
+            [
+              32.7838042,
+              39.9641385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 45,
+        "pipe_code": "GP-OSM-YHM-045",
+        "pipe_type": "service_line",
+        "diameter_mm": 32,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2016,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "370. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.782264,
+              39.9675361
+            ],
+            [
+              32.7823733,
+              39.9677678
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 46,
+        "pipe_code": "GP-OSM-YHM-046",
+        "pipe_type": "distribution",
+        "diameter_mm": 125,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2023,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "Şehit Tugay Can Kızılırmak Sokağı"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7843604,
+              39.9683856
+            ],
+            [
+              32.7831086,
+              39.9688283
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 47,
+        "pipe_code": "GP-OSM-YHM-047",
+        "pipe_type": "distribution",
+        "diameter_mm": 160,
+        "material": "polietilen",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2017,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "370. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7823733,
+              39.9677678
+            ],
+            [
+              32.7825242,
+              39.9680702
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 48,
+        "pipe_code": "GP-OSM-YHM-048",
+        "pipe_type": "distribution",
+        "diameter_mm": 90,
+        "material": "PE100",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2024,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "370. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7820063,
+              39.9668264
+            ],
+            [
+              32.782264,
+              39.9675361
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 49,
+        "pipe_code": "GP-OSM-YHM-049",
+        "pipe_type": "service_line",
+        "diameter_mm": 40,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2018,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "İvedik Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7865549,
+              39.9696016
+            ],
+            [
+              32.7862328,
+              39.9697435
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 50,
+        "pipe_code": "GP-OSM-YHM-050",
+        "pipe_type": "service_line",
+        "diameter_mm": 63,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "pasif",
+        "install_year": 2011,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "370. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7825242,
+              39.9680702
+            ],
+            [
+              32.7827044,
+              39.9683805
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 51,
+        "pipe_code": "GP-OSM-YHM-051",
+        "pipe_type": "distribution",
+        "diameter_mm": 160,
+        "material": "polietilen",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2019,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "osm_way_205287316"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7872586,
+              39.9650832
+            ],
+            [
+              32.786517,
+              39.9652467
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 52,
+        "pipe_code": "GP-OSM-YHM-052",
+        "pipe_type": "distribution",
+        "diameter_mm": 90,
+        "material": "PE100",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2013,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "İvedik Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7872089,
+              39.9693266
+            ],
+            [
+              32.7865549,
+              39.9696016
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 53,
+        "pipe_code": "GP-OSM-YHM-053",
+        "pipe_type": "service_line",
+        "diameter_mm": 63,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2020,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "İvedik Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7862328,
+              39.9697435
+            ],
+            [
+              32.7859824,
+              39.9698471
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 54,
+        "pipe_code": "GP-OSM-YHM-054",
+        "pipe_type": "distribution",
+        "diameter_mm": 125,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2014,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "İvedik Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.787848,
+              39.9690578
+            ],
+            [
+              32.7872089,
+              39.9693266
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 55,
+        "pipe_code": "GP-OSM-YHM-055",
+        "pipe_type": "distribution",
+        "diameter_mm": 160,
+        "material": "polietilen",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2021,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "367. Sokak"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7828047,
+              39.9683457
+            ],
+            [
+              32.7831086,
+              39.9688283
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 56,
+        "pipe_code": "GP-OSM-YHM-056",
+        "pipe_type": "service_line",
+        "diameter_mm": 63,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "pasif",
+        "install_year": 2011,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "İvedik Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7859824,
+              39.9698471
+            ],
+            [
+              32.7855921,
+              39.9700014
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 57,
+        "pipe_code": "GP-OSM-YHM-057",
+        "pipe_type": "service_line",
+        "diameter_mm": 32,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "pasif",
+        "install_year": 2005,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "370. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7817571,
+              39.9661398
+            ],
+            [
+              32.7820063,
+              39.9668264
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 58,
+        "pipe_code": "GP-OSM-YHM-058",
+        "pipe_type": "distribution",
+        "diameter_mm": 125,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2016,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "398. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7872586,
+              39.9650832
+            ],
+            [
+              32.787784,
+              39.9666123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 59,
+        "pipe_code": "GP-OSM-YHM-059",
+        "pipe_type": "distribution",
+        "diameter_mm": 160,
+        "material": "polietilen",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2023,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "398. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.787784,
+              39.9666123
+            ],
+            [
+              32.7881286,
+              39.9676016
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 60,
+        "pipe_code": "GP-OSM-YHM-060",
+        "pipe_type": "service_line",
+        "diameter_mm": 32,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "pasif",
+        "install_year": 2005,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "secondary",
+        "osm_name": "İvedik Caddesi"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.788522,
+              39.9687743
+            ],
+            [
+              32.787848,
+              39.9690578
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 61,
+        "pipe_code": "GP-OSM-YHM-061",
+        "pipe_type": "distribution",
+        "diameter_mm": 110,
+        "material": "polietilen",
+        "pressure_level": "low",
+        "operating_pressure_bar": 0.3,
+        "status": "aktif",
+        "install_year": 2024,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "367. Sokak"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7831086,
+              39.9688283
+            ],
+            [
+              32.7832855,
+              39.9691269
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pipe_id": 62,
+        "pipe_code": "GP-OSM-YHM-062",
+        "pipe_type": "distribution",
+        "diameter_mm": 125,
+        "material": "PE100",
+        "pressure_level": "medium",
+        "operating_pressure_bar": 1.0,
+        "status": "aktif",
+        "install_year": 2018,
+        "source": "synthetic_demo_yenimahalle_osm_preview",
+        "osm_highway": "residential",
+        "osm_name": "360. Cadde"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              32.7864372,
+              39.9650105
+            ],
+            [
+              32.7861538,
+              39.9641713
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
